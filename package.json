@@ -13,6 +13,7 @@
   "unpkg": "./lib/capitalize.umd.js",
   "typings": "lib/index.d.ts",
   "scripts": {
+    "start": "microbundle watch",
     "build": "microbundle",
     "prepare": "npm run build",
     "pretest": "tsc --noEmit",
